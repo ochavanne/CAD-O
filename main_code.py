@@ -379,37 +379,32 @@ def Module_KPI(results_production, volume_storage,
 ##################################################
 
 # Geopackage filepath
-gpkg_filepath = r"Orbe.gpkg"                                   #TODO
-# gpkg_filepath = r"zone_Delémont.gpkg"                                   #TODO
-# gpkg_filepath = r"test_multi_prod.gpkg"                                   #TODO
+gpkg_filepath = r"....gpkg"                                   #TODO
 
 # Create geometry with swissbuildings3D
-create_geometry_3D = False                                               #TODO
+create_geometry_3D = False                                    #TODO
 
 # Calculate volume from swissbuildings3D
-calculate_volume_3D = False                                               #TODO
+calculate_volume_3D = False                                   #TODO
 
 # CitySim.exe filepath
-citysim_filepath = "C:/Users/Olivier Chavanne/Documents/CitySim_solver/v7/bin/CitySim.exe" #TODO
+citysim_filepath = r"---/CitySim.exe" #TODO
 
 # XML name to export
-directory_path = "Orbe_2.5D"
+directory_path = r"---"                                   #TODO
 
 os.makedirs(directory_path, exist_ok=True)
                                       
-xml_name = directory_path                                           #TODO
+xml_name = directory_path                                       
 xml_DHN = "DHN_"+xml_name
 
 # XML source files
-xml_base_file = 'xml_base.xml'                                          #TODO
-climate_file = 'Bex_2030.cli'                                           #TODO
-horizon_file = 'Bex.hor'                                                #TODO
+xml_base_file = r"xml_base.xml"                                
+climate_file = r"---.cli"                                   #TODO
+horizon_file = r"---.hor"                                        #TODO
 
 # Scenarios to simulate
-scenarios_list = [1,2,3,4,5,6]                              #TODO
-
-# For IDC calculation
-measures_filepath = r"Regener_2023-05-03_Orbe_Pully_Bex.xlsx" #TODO
+scenarios_list = [1,2,3,4,5,6]                                  #TODO
 
 do_plot = True
 
