@@ -25,20 +25,13 @@ In addition to the newly created GeoPackage, a climatic and a horizon file must 
 
 Before launching the "main_code.py" from command line, it must be custom modified for each simulation, either from a text files reading app or a python editor app such as *Spyder* or *Visual Code Studio*.
 Each modification is signaled with *#TODO*.
-- gpkg_filepath = r"---.gpkg"
-File path of the GeoPackage containing all necessary layers
-- create_geometry_3D = True/False (default = False)
-Activates the simulation with thermal envelope from Swissbuildings3D geometries (much longer simulation)
-- calculate_volume_3D = True/False (default = False)
-Activates the volume calculation from Swissbuildings3D geometries
-- citysim_filepath = r"---/CitySim.exe"
-File path of the CitySim solver
-- directory_path = r"---"
-Name of the new directory to be created by the simulation
-- climate_file = r"---.cli"
-File path of the climate file
-- horizon_file = r"---.hor"
-File path of the horizon file
+- gpkg_filepath = r"---.gpkg" : File path of the GeoPackage containing all necessary layers
+- create_geometry_3D = True/False (default = False) : Activates the simulation with thermal envelope from Swissbuildings3D geometries (much longer simulation)
+- calculate_volume_3D = True/False (default = False) : Activates the volume calculation from Swissbuildings3D geometries
+- citysim_filepath = r"---/CitySim.exe" : File path of the CitySim solver
+- directory_path = r"---" : Name of the new directory to be created by the simulation
+- climate_file = r"---.cli" : File path of the climate file
+- horizon_file = r"---.hor" : File path of the horizon file
 
 ### Python libraries
 The required libraries to import are listed in the *requirements.txt* file
