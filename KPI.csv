@@ -1,0 +1,7 @@
+T_eff,efficiency,Technology,surf_machine[m2/kW],surf_installation[m2/kW],lifetime[y],cost_machine[CHF/kW],env_machine[kgCO2/kWh],Resource,cost_fuel[CHF/kWh],env_fuel[kgCO2/kWh]
+CHP_th,0.50,CHP,0.32,0.043,25,2550,0.022,Wood,0.08,NaN
+CHP_el,0.25,Wood_boiler,0.007,0.043,25,800,0.025,Gas,0.15,NaN
+Wood_boiler,0.95,Gas_boiler,0.004,0.043,30,60,0.301,Electricity_buy,0.25,0.125
+Gas_boiler,0.96,Heat_Pump_Water,0.032,0.043,20,500,0.06,Electricity_CHP_sell,0.25,0.037
+Heat_Pump_Water_eta_tech,0.45
+Heat_Pump_Water_COP,2.61
