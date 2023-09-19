@@ -19,7 +19,6 @@ import enerCAD.result as result
 import enerCAD.network as network
 import enerCAD.production as prod
 import enerCAD.KPI as KPI
-import enerCAD.IDC as IDC
 
 # URL for RegBL API request
 GEOADMIN_BASE_URL = "https://api.geo.admin.ch/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/"
