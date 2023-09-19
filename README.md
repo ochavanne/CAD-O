@@ -4,6 +4,7 @@
 ## Usage
 ### Files upload online and import to QGIS
 Choose the geographical zone (tile, canton) for the area of study. Step 1 : Download the files, Step 2 : Import them to QGIS
+
 Swissbuildings3D : 
 1. Geodatabase format from https://www.swisstopo.admin.ch/en/geodata/landscape/buildings3d3.html#download
 2. Import *Floor/Roof/Wall* layers
